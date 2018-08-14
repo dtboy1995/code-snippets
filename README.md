@@ -40,7 +40,7 @@ server {
 ```
 
 ### mongodb 3.2 yum repos
-```config
+```yum
 [MongoDB]
 name=MongoDB Repository
 baseurl=http://mirrors.aliyun.com/mongodb/yum/redhat/7/mongodb-org/3.2/x86_64
@@ -49,7 +49,7 @@ enabled=1
 ```
 
 ### mongodb common config
-```config
+```mongodb
 systemLog:
   destination: file
   logAppend: true
@@ -75,7 +75,7 @@ security:
 
 - http config
 
-```config
+```nginx
 server{
     listen          80;
     server_name     ithot.org;
@@ -85,7 +85,7 @@ server{
 
 - https config
 
-```config
+```nginx
 server {
     listen 443;
     server_name ithot.org;

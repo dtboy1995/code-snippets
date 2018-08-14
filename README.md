@@ -102,7 +102,7 @@ server {
 
 - dns
 
-| 类型 | 主机记录 | 记录值 |
+| type | record | value |
 | :- | :- | :- |
-| A | @ | ip地址 |
-| 显性url | www | https://ithot.org |
+| A | @ | 220.181.112.244 |
+| dominant url | www | https://ithot.org |

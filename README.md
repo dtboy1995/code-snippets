@@ -76,7 +76,7 @@ security:
 - http config
 
 ```nginx
-server{
+server {
     listen          80;
     server_name     ithot.org;
     return 301      https://$server_name$request_uri;

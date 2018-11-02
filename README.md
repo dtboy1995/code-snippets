@@ -106,3 +106,35 @@ server {
 | :- | :- | :- |
 | A | @ | 220.181.112.244 |
 | dominant url | www | https://ithot.org |
+
+
+### 阿里云短信
+```coffeescript
+config    = require 'config'
+Promise   = require 'bluebird'
+AliSms    = require 'ali-sms-callback'
+
+client = new AliSms
+  AccessKeyId: '-',
+  AccessKeySecret: '-'
+
+module.exports =
+
+  TEMPLATE:
+    REGISTER: 'SMS_126865294'
+    FINDBACK: 'SMS_121905212'
+
+  sendTemplateSMS: (template, phone, vars) ->
+    new Promise (resolve, reject) ->
+      options =
+        SignName: 'EnglishICO'
+        TemplateCode: template
+        TemplateParam: JSON.stringify vars
+        PhoneNumbers: phone
+      client.SendSms options, (err, data) ->
+        if err?
+          reject err
+        else
+          resolve data
+
+```

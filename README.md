@@ -138,3 +138,25 @@ module.exports =
           resolve data
 
 ```
+### 小程序更新
+app.js `onLaunch()`
+```js
+const manager = wx.getUpdateManager();
+    manager.onCheckForUpdate(res => {
+      logger.debug(res);
+    });
+manager.onUpdateReady(() => {
+  wx.showModal({
+    title: '更新提示',
+    content: '新版本已经准备好，是否重启应用？',
+    success(res) {
+      if (res.confirm) {
+        manager.applyUpdate();
+      }
+    }
+  });
+});
+manager.onUpdateFailed(err => {
+  logger.debug(err);
+});
+```

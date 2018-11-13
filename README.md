@@ -1,3 +1,6 @@
+# vscode
+`    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",`
+
 # code-snippets
 config code snippets
 

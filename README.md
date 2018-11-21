@@ -1,10 +1,9 @@
-# vscode
-`    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",`
+# 代码片段
 
-# code-snippets
-config code snippets
+### vscode 设置vscode默认终端所使用的shell
+`"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",`
 
-### nginx http common
+### nginx http 的普通的一个配置
 ```nginx
 server {
     listen 80;
@@ -13,14 +12,14 @@ server {
     location / {
         proxy_pass http://localhost:[port];
         proxy_http_version 1.1;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host; # 真实的客户端域名
+        proxy_set_header X-Real-IP $remote_addr; #真实的客户端IP地址 
+        proxy_set_header Upgrade $http_upgrade; # websocket
+        proxy_set_header Connection "upgrade"; # websocket
     }
 }
 ```
-### vue spa common http
+### vue spa 的配置如下
 ```nginx
 server {
     listen 80;
@@ -42,7 +41,7 @@ server {
 }
 ```
 
-### mongodb 3.2 yum repos
+### mongodb 3.2 yum 安装 配置 repos
 ```yum
 [MongoDB]
 name=MongoDB Repository
@@ -51,7 +50,7 @@ gpgcheck=0
 enabled=1
 ```
 
-### mongodb common config
+### mongodb 带授权的简单配置 common config
 ```mongodb
 systemLog:
   destination: file

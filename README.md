@@ -1,5 +1,12 @@
 # 代码片段
-
+### 硬件相关
+- gpio
+- uart
+- i2c
+- i2s
+- Bluetooth
+- zigbee
+- wifi
 ### vscode 设置vscode默认终端所使用的shell
 `"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",`
 

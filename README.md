@@ -1,4 +1,7 @@
+
 # 代码片段
+
+### vscode字体 'DejaVu Sans Mono',Consolas,'Courier New', monospace, 微软雅黑
 
 ### css相关
 - 样式改变时，顺序取结果，所有有时候没有生效请看一下样式编写的顺序

@@ -1,16 +1,20 @@
 
 # 代码片段
 
-### vscode字体 'DejaVu Sans Mono',Consolas,'Courier New', monospace, 微软雅黑
-
+### git 忽略已经提交到远程的文件
+```shell
+git rm --cached -r dir/
+```
+### vscode字体 
+```config
+'DejaVu Sans Mono',Consolas,'Courier New', monospace, 微软雅黑
+```
 ### css相关
 - 样式改变时，顺序取结果，所有有时候没有生效请看一下样式编写的顺序
-
 ### 小程序注意事项
 - canvas wx:if drawImage 会引发问题
 - 弹出层注意事件不要向下传递，否则会引发性能问题
 - wepy最好不要使用计算属性
-
 ### 硬件相关
 - gpio
 - uart
@@ -20,8 +24,11 @@
 - zigbee
 - wifi
 ### vscode 设置vscode默认终端所使用的shell
-`"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",`
-
+```json
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+}
+```
 ### nginx http 的普通的一个配置
 ```nginx
 server {

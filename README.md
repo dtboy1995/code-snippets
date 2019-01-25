@@ -1,6 +1,9 @@
 
 # 代码片段
 
+### 环形队列
+环形队列是解决固定长度缓冲区的通用方法
+
 ### butterknife 启示
 ```java
 package butterknife.internal;

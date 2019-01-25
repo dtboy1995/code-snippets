@@ -1,6 +1,13 @@
 
 # 代码片段
 
+### bintray冲突
+```gradle
+libraryVariants.all {
+    it.generateBuildConfig.enabled = false
+ }
+```
+
 ### 环形队列
 环形队列是解决固定长度缓冲区的通用方法
 

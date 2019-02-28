@@ -1,6 +1,9 @@
 
 # 代码片段
 
+### html识别\r\n需要在所在元素添加如下样式
+white-space: pre-line;
+
 ### 乐观锁的实现 
 CAS
 

@@ -1,6 +1,23 @@
 
 # 代码片段
 
+### 响应式布局中英文详解
+```
+XS:extra small 加小码
+S:small 小码
+M:medium 中码
+L:large 大码
+XL:extra large 超大码
+```
+web boundary
+```
+xs = extra small < 768
+sm = small >= 768
+md = middle >= 992
+lg = large >= 1200
+xl = extra large >= 1920
+```
+
 ### html识别\r\n需要在所在元素添加如下样式
 white-space: pre-line;
 

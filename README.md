@@ -1,6 +1,22 @@
 
 # 代码片段
 
+### mongodb 地理 
+```js
+location: {
+        type: {
+            type: String,
+            default: 'Point',
+            required: true
+        },
+        coordinates: {
+            type: [Number],
+            required: true,
+            index: '2dsphere'
+        }
+    }
+```
+
 - git commit --amend
 
 ### mongodb忘记密码之后先把授权启动关闭再操作即可

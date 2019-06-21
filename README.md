@@ -1,6 +1,11 @@
 
 # 代码片段
 
+### 避免puppeteer等有install.js重复执行的情况
+```
+npm install --ignore-scripts
+```
+
 ### mongodb 地理 
 ```js
 location: {

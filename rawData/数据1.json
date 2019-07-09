@@ -1,0 +1,21 @@
+{
+    "data": {
+        "availableCoupons": [
+            {
+                "couponCode": "1d7ea1f2-e231-4f68-8eaa-d6dad0124fc3",
+                "status": 0,
+                "startTime": "2019-07-09T11:20:04+08:00",
+                "endTime": "2019-07-16T23:59:59+08:00",
+                "description": "1、优惠领取后7日内有效，可在爱回收官网、门店使用；\r\n2、订单每含一台高于券面最低回收金额的机器，即可选择使用优惠；\r\n3、优惠不限品类，回收手机、平板电脑、笔记本、智能数码、摄影摄像均可使用；\r\n4、若您参与活动，视为同意以上活动规则，本次活动的最终解释权归爱回收所有。",
+                "minPriceLimit": 3000,
+                "amount": 60,
+                "name": "限时高价满3000加60",
+                "relatedInquiryKey": "3802656443962550066"
+            }
+        ],
+        "unAvailableCoupons": []
+    },
+    "code": 0,
+    "message": null,
+    "resultMessage": null
+}

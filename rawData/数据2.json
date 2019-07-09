@@ -1,0 +1,17 @@
+{
+    "data": {
+        "inquiryKey": "3802656443962550066",
+        "amount": 3570,
+        "productName": "苹果 iPhone X",
+        "productImage": null,
+        "productId": 25827,
+        "expired": true,
+        "isEnvironmentalRecycling": false,
+        "isPpvEnvironmentalRecycling": false,
+        "selectedValues": null,
+        "priceProtectionDays": 10
+    },
+    "code": 0,
+    "message": null,
+    "resultMessage": null
+}

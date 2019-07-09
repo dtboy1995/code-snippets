@@ -1,0 +1,159 @@
+{
+    "data": [
+        {
+            "date": "2019-07-09T00:00:00+08:00",
+            "dateString": "07月09日 (周二)",
+            "items": [
+                {
+                    "startTimeSpan": "10:00",
+                    "endTimeSpan": "12:00",
+                    "enable": true,
+                    "durationTime": "上午 (10:00-12:00)",
+                    "startTime": "2019-07-09 10:00",
+                    "endTime": "2019-07-09 12:00"
+                },
+                {
+                    "startTimeSpan": "12:00",
+                    "endTimeSpan": "14:00",
+                    "enable": true,
+                    "durationTime": "中午 (12:00-14:00)",
+                    "startTime": "2019-07-09 12:00",
+                    "endTime": "2019-07-09 14:00"
+                },
+                {
+                    "startTimeSpan": "14:00",
+                    "endTimeSpan": "18:00",
+                    "enable": true,
+                    "durationTime": "下午 (14:00-18:00)",
+                    "startTime": "2019-07-09 14:00",
+                    "endTime": "2019-07-09 18:00"
+                },
+                {
+                    "startTimeSpan": "18:00",
+                    "endTimeSpan": "21:30",
+                    "enable": true,
+                    "durationTime": "晚上 (18:00-21:30)",
+                    "startTime": "2019-07-09 18:00",
+                    "endTime": "2019-07-09 21:30"
+                }
+            ]
+        },
+        {
+            "date": "2019-07-10T00:00:00+08:00",
+            "dateString": "07月10日 (周三)",
+            "items": [
+                {
+                    "startTimeSpan": "10:00",
+                    "endTimeSpan": "12:00",
+                    "enable": true,
+                    "durationTime": "上午 (10:00-12:00)",
+                    "startTime": "2019-07-10 10:00",
+                    "endTime": "2019-07-10 12:00"
+                },
+                {
+                    "startTimeSpan": "12:00",
+                    "endTimeSpan": "14:00",
+                    "enable": true,
+                    "durationTime": "中午 (12:00-14:00)",
+                    "startTime": "2019-07-10 12:00",
+                    "endTime": "2019-07-10 14:00"
+                },
+                {
+                    "startTimeSpan": "14:00",
+                    "endTimeSpan": "18:00",
+                    "enable": true,
+                    "durationTime": "下午 (14:00-18:00)",
+                    "startTime": "2019-07-10 14:00",
+                    "endTime": "2019-07-10 18:00"
+                },
+                {
+                    "startTimeSpan": "18:00",
+                    "endTimeSpan": "21:30",
+                    "enable": true,
+                    "durationTime": "晚上 (18:00-21:30)",
+                    "startTime": "2019-07-10 18:00",
+                    "endTime": "2019-07-10 21:30"
+                }
+            ]
+        },
+        {
+            "date": "2019-07-11T00:00:00+08:00",
+            "dateString": "07月11日 (周四)",
+            "items": [
+                {
+                    "startTimeSpan": "10:00",
+                    "endTimeSpan": "12:00",
+                    "enable": true,
+                    "durationTime": "上午 (10:00-12:00)",
+                    "startTime": "2019-07-11 10:00",
+                    "endTime": "2019-07-11 12:00"
+                },
+                {
+                    "startTimeSpan": "12:00",
+                    "endTimeSpan": "14:00",
+                    "enable": true,
+                    "durationTime": "中午 (12:00-14:00)",
+                    "startTime": "2019-07-11 12:00",
+                    "endTime": "2019-07-11 14:00"
+                },
+                {
+                    "startTimeSpan": "14:00",
+                    "endTimeSpan": "18:00",
+                    "enable": true,
+                    "durationTime": "下午 (14:00-18:00)",
+                    "startTime": "2019-07-11 14:00",
+                    "endTime": "2019-07-11 18:00"
+                },
+                {
+                    "startTimeSpan": "18:00",
+                    "endTimeSpan": "21:30",
+                    "enable": true,
+                    "durationTime": "晚上 (18:00-21:30)",
+                    "startTime": "2019-07-11 18:00",
+                    "endTime": "2019-07-11 21:30"
+                }
+            ]
+        },
+        {
+            "date": "2019-07-12T00:00:00+08:00",
+            "dateString": "07月12日 (周五)",
+            "items": [
+                {
+                    "startTimeSpan": "10:00",
+                    "endTimeSpan": "12:00",
+                    "enable": true,
+                    "durationTime": "上午 (10:00-12:00)",
+                    "startTime": "2019-07-12 10:00",
+                    "endTime": "2019-07-12 12:00"
+                },
+                {
+                    "startTimeSpan": "12:00",
+                    "endTimeSpan": "14:00",
+                    "enable": true,
+                    "durationTime": "中午 (12:00-14:00)",
+                    "startTime": "2019-07-12 12:00",
+                    "endTime": "2019-07-12 14:00"
+                },
+                {
+                    "startTimeSpan": "14:00",
+                    "endTimeSpan": "18:00",
+                    "enable": true,
+                    "durationTime": "下午 (14:00-18:00)",
+                    "startTime": "2019-07-12 14:00",
+                    "endTime": "2019-07-12 18:00"
+                },
+                {
+                    "startTimeSpan": "18:00",
+                    "endTimeSpan": "21:30",
+                    "enable": true,
+                    "durationTime": "晚上 (18:00-21:30)",
+                    "startTime": "2019-07-12 18:00",
+                    "endTime": "2019-07-12 21:30"
+                }
+            ]
+        }
+    ],
+    "code": 0,
+    "message": null,
+    "resultMessage": null
+}

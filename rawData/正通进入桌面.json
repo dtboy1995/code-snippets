@@ -1,0 +1,2010 @@
+{
+    "data": {
+        "skus": [
+            [
+                "2014",
+                "2023",
+                "2072",
+                "2453",
+                "6437"
+            ],
+            [
+                "2014",
+                "2072",
+                "2453",
+                "3987",
+                "6437"
+            ],
+            [
+                "2015",
+                "2023",
+                "2072",
+                "2453",
+                "6437"
+            ],
+            [
+                "2015",
+                "2072",
+                "2453",
+                "3987",
+                "6437"
+            ],
+            [
+                "2019",
+                "2023",
+                "2072",
+                "2453",
+                "6437"
+            ],
+            [
+                "2019",
+                "2072",
+                "2453",
+                "3987",
+                "6437"
+            ],
+            [
+                "2023",
+                "2072",
+                "2453",
+                "2794",
+                "6437"
+            ],
+            [
+                "2072",
+                "2453",
+                "2794",
+                "3987",
+                "6437"
+            ],
+            [
+                "2023",
+                "2072",
+                "2453",
+                "2984",
+                "6437"
+            ],
+            [
+                "2072",
+                "2453",
+                "2984",
+                "3987",
+                "6437"
+            ],
+            [
+                "2014",
+                "2023",
+                "2072",
+                "2454",
+                "6437"
+            ],
+            [
+                "2014",
+                "2072",
+                "2454",
+                "3987",
+                "6437"
+            ],
+            [
+                "2015",
+                "2023",
+                "2072",
+                "2454",
+                "6437"
+            ],
+            [
+                "2015",
+                "2072",
+                "2454",
+                "3987",
+                "6437"
+            ],
+            [
+                "2019",
+                "2023",
+                "2072",
+                "2454",
+                "6437"
+            ],
+            [
+                "2019",
+                "2072",
+                "2454",
+                "3987",
+                "6437"
+            ],
+            [
+                "2023",
+                "2072",
+                "2454",
+                "2794",
+                "6437"
+            ],
+            [
+                "2072",
+                "2454",
+                "2794",
+                "3987",
+                "6437"
+            ],
+            [
+                "2023",
+                "2072",
+                "2454",
+                "2984",
+                "6437"
+            ],
+            [
+                "2072",
+                "2454",
+                "2984",
+                "3987",
+                "6437"
+            ],
+            [
+                "2014",
+                "2023",
+                "2075",
+                "2453",
+                "6437"
+            ],
+            [
+                "2014",
+                "2075",
+                "2453",
+                "3987",
+                "6437"
+            ],
+            [
+                "2015",
+                "2023",
+                "2075",
+                "2453",
+                "6437"
+            ],
+            [
+                "2015",
+                "2075",
+                "2453",
+                "3987",
+                "6437"
+            ],
+            [
+                "2019",
+                "2023",
+                "2075",
+                "2453",
+                "6437"
+            ],
+            [
+                "2019",
+                "2075",
+                "2453",
+                "3987",
+                "6437"
+            ],
+            [
+                "2023",
+                "2075",
+                "2453",
+                "2794",
+                "6437"
+            ],
+            [
+                "2075",
+                "2453",
+                "2794",
+                "3987",
+                "6437"
+            ],
+            [
+                "2023",
+                "2075",
+                "2453",
+                "2984",
+                "6437"
+            ],
+            [
+                "2075",
+                "2453",
+                "2984",
+                "3987",
+                "6437"
+            ],
+            [
+                "2014",
+                "2023",
+                "2075",
+                "2454",
+                "6437"
+            ],
+            [
+                "2014",
+                "2075",
+                "2454",
+                "3987",
+                "6437"
+            ],
+            [
+                "2015",
+                "2023",
+                "2075",
+                "2454",
+                "6437"
+            ],
+            [
+                "2015",
+                "2075",
+                "2454",
+                "3987",
+                "6437"
+            ],
+            [
+                "2019",
+                "2023",
+                "2075",
+                "2454",
+                "6437"
+            ],
+            [
+                "2019",
+                "2075",
+                "2454",
+                "3987",
+                "6437"
+            ],
+            [
+                "2023",
+                "2075",
+                "2454",
+                "2794",
+                "6437"
+            ],
+            [
+                "2075",
+                "2454",
+                "2794",
+                "3987",
+                "6437"
+            ],
+            [
+                "2023",
+                "2075",
+                "2454",
+                "2984",
+                "6437"
+            ],
+            [
+                "2075",
+                "2454",
+                "2984",
+                "3987",
+                "6437"
+            ],
+            [
+                "2014",
+                "2023",
+                "2072",
+                "2453",
+                "6438"
+            ],
+            [
+                "2014",
+                "2023",
+                "2075",
+                "2453",
+                "6438"
+            ],
+            [
+                "2014",
+                "2072",
+                "2453",
+                "3987",
+                "6438"
+            ],
+            [
+                "2014",
+                "2075",
+                "2453",
+                "3987",
+                "6438"
+            ],
+            [
+                "2015",
+                "2023",
+                "2072",
+                "2453",
+                "6438"
+            ],
+            [
+                "2015",
+                "2023",
+                "2075",
+                "2453",
+                "6438"
+            ],
+            [
+                "2015",
+                "2072",
+                "2453",
+                "3987",
+                "6438"
+            ],
+            [
+                "2015",
+                "2075",
+                "2453",
+                "3987",
+                "6438"
+            ],
+            [
+                "2019",
+                "2023",
+                "2072",
+                "2453",
+                "6438"
+            ],
+            [
+                "2019",
+                "2023",
+                "2075",
+                "2453",
+                "6438"
+            ],
+            [
+                "2019",
+                "2072",
+                "2453",
+                "3987",
+                "6438"
+            ],
+            [
+                "2019",
+                "2075",
+                "2453",
+                "3987",
+                "6438"
+            ],
+            [
+                "2023",
+                "2072",
+                "2453",
+                "2794",
+                "6438"
+            ],
+            [
+                "2023",
+                "2075",
+                "2453",
+                "2794",
+                "6438"
+            ],
+            [
+                "2072",
+                "2453",
+                "2794",
+                "3987",
+                "6438"
+            ],
+            [
+                "2075",
+                "2453",
+                "2794",
+                "3987",
+                "6438"
+            ],
+            [
+                "2023",
+                "2072",
+                "2453",
+                "2984",
+                "6438"
+            ],
+            [
+                "2023",
+                "2075",
+                "2453",
+                "2984",
+                "6438"
+            ],
+            [
+                "2072",
+                "2453",
+                "2984",
+                "3987",
+                "6438"
+            ],
+            [
+                "2075",
+                "2453",
+                "2984",
+                "3987",
+                "6438"
+            ],
+            [
+                "2023",
+                "2072",
+                "2453",
+                "3950",
+                "6438"
+            ],
+            [
+                "2023",
+                "2075",
+                "2453",
+                "3950",
+                "6438"
+            ],
+            [
+                "2072",
+                "2453",
+                "3950",
+                "3987",
+                "6438"
+            ],
+            [
+                "2075",
+                "2453",
+                "3950",
+                "3987",
+                "6438"
+            ],
+            [
+                "2014",
+                "2023",
+                "2072",
+                "2454",
+                "6438"
+            ],
+            [
+                "2014",
+                "2023",
+                "2075",
+                "2454",
+                "6438"
+            ],
+            [
+                "2014",
+                "2072",
+                "2454",
+                "3987",
+                "6438"
+            ],
+            [
+                "2014",
+                "2075",
+                "2454",
+                "3987",
+                "6438"
+            ],
+            [
+                "2015",
+                "2023",
+                "2072",
+                "2454",
+                "6438"
+            ],
+            [
+                "2015",
+                "2023",
+                "2075",
+                "2454",
+                "6438"
+            ],
+            [
+                "2015",
+                "2072",
+                "2454",
+                "3987",
+                "6438"
+            ],
+            [
+                "2015",
+                "2075",
+                "2454",
+                "3987",
+                "6438"
+            ],
+            [
+                "2019",
+                "2023",
+                "2072",
+                "2454",
+                "6438"
+            ],
+            [
+                "2019",
+                "2023",
+                "2075",
+                "2454",
+                "6438"
+            ],
+            [
+                "2019",
+                "2072",
+                "2454",
+                "3987",
+                "6438"
+            ],
+            [
+                "2019",
+                "2075",
+                "2454",
+                "3987",
+                "6438"
+            ],
+            [
+                "2023",
+                "2072",
+                "2454",
+                "2794",
+                "6438"
+            ],
+            [
+                "2023",
+                "2075",
+                "2454",
+                "2794",
+                "6438"
+            ],
+            [
+                "2072",
+                "2454",
+                "2794",
+                "3987",
+                "6438"
+            ],
+            [
+                "2075",
+                "2454",
+                "2794",
+                "3987",
+                "6438"
+            ],
+            [
+                "2023",
+                "2072",
+                "2454",
+                "2984",
+                "6438"
+            ],
+            [
+                "2023",
+                "2075",
+                "2454",
+                "2984",
+                "6438"
+            ],
+            [
+                "2072",
+                "2454",
+                "2984",
+                "3987",
+                "6438"
+            ],
+            [
+                "2075",
+                "2454",
+                "2984",
+                "3987",
+                "6438"
+            ],
+            [
+                "2023",
+                "2072",
+                "2454",
+                "3950",
+                "6438"
+            ],
+            [
+                "2023",
+                "2075",
+                "2454",
+                "3950",
+                "6438"
+            ],
+            [
+                "2072",
+                "2454",
+                "3950",
+                "3987",
+                "6438"
+            ],
+            [
+                "2075",
+                "2454",
+                "3950",
+                "3987",
+                "6438"
+            ]
+        ],
+        "product": {
+            "id": 25827,
+            "name": "苹果 iPhone X",
+            "topPrice": 5673,
+            "imgUrl": "https://sr.aihuishou.com/image/5a28b40bc60057c40a000005.png",
+            "categoryId": 1,
+            "brandId": 52,
+            "totalRecycleCount": 0,
+            "isNative": false,
+            "isEnvironmentalRecycling": false
+        },
+        "disabledUrl": null,
+        "guaranteePeriodType": 0,
+        "propertyNames": [
+            {
+                "id": 1228,
+                "name": "型号",
+                "type": 1,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 6437,
+                        "value": "A1865-全网通",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            6437
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 999,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 6438,
+                        "value": "其他",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            6438
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 999,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 0
+            },
+            {
+                "id": 315,
+                "name": "存储容量",
+                "type": 1,
+                "text": "&lt;span style=\"font-family:Microsoft YaHei;\"&gt;请点击“设置”&amp;gt;“关于本机”或者“存储容量”，查看“容量”一项。&lt;/span&gt;",
+                "imgs": [
+                    "https://sr.aihuishou.com/image/590b1b74c8bb600000000031.png"
+                ],
+                "values": [
+                    {
+                        "id": 3987,
+                        "value": "256G",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            3987
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 2,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2023,
+                        "value": "64G",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2023
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 4,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 1
+            },
+            {
+                "id": 314,
+                "name": "购买渠道",
+                "type": 1,
+                "text": "&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;在设置&amp;gt;通用&amp;gt;关于本机＞“型号”中，&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;“M...CH/”大陆国行；&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;“N...CH/”国行官换机；&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;“...ZP/”香港行货；&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;“3A...”“3C...”开头是展示机；&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;其余均为水货，能自由使用国内SIM卡为无锁，否则有锁。&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;br /&gt;\n&lt;/p&gt;",
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2014,
+                        "value": "大陆国行",
+                        "isPreferred": true,
+                        "text": "&lt;p&gt;\n\t&lt;span style=\"font-size:12px;font-family:Microsoft YaHei;\"&gt;在设置&amp;gt;通用&amp;gt;关于本机中，&lt;/span&gt;&lt;span style=\"font-family:&amp;quot;font-size:12px;\"&gt;型号开头为M，且有“CH/”字母。&lt;/span&gt; \n&lt;/p&gt;\n&lt;br /&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590c553922438c6828000001.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2014
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2984,
+                        "value": "国行官换机",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;苹果官方在大陆提供的置换机。在设置&amp;gt;通用&amp;gt;关于本机中，型号开头为N，且有“CH/”字母。&lt;/span&gt;\n&lt;/p&gt;\n&lt;div&gt;\n\t&lt;span style=\"font-family:&amp;quot;\"&gt;&lt;br /&gt;\n&lt;/span&gt;\n&lt;/div&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590c573e6cd3a0ac19000005.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2984
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 1,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2015,
+                        "value": "香港行货",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;在设置&amp;gt;通用&amp;gt;关于本机中，型号中有“ZP/”字母。&lt;/span&gt;\n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-size:12px;font-family:Microsoft YaHei;\"&gt;&lt;/span&gt;&lt;span style=\"font-size:12px;font-family:Microsoft YaHei;\"&gt;&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;br /&gt;\n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590c55db22438c6828000005.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2015
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 3,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 3950,
+                        "value": "国行展示机",
+                        "isPreferred": false,
+                        "text": "&lt;span style=\"font-family:Microsoft YaHei;\"&gt;&lt;span style=\"font-family:Microsoft YaHei;\"&gt;在设置&amp;gt;通用&amp;gt;关于本机中，型号开头是“3A...”或“3C...&lt;/span&gt;&lt;span style=\"font-family:Microsoft YaHei;\"&gt;”。&lt;/span&gt;&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/5923a4a308bae40000000001.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            3950
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 4,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2794,
+                        "value": "非国行港行-无锁",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;水货：在设置&amp;gt;通用&amp;gt;关于本机中，型号斜杠“/”前字母既不是“CH”也不是“ZP”。&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;无锁：国外销售，但可以自由使用中国运营商的SIM卡。&lt;/span&gt; \n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/59202371b1f206000000002d.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2794
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 6,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2019,
+                        "value": "非国行港行-有锁",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\n\t&lt;span style=\"font-size:12px;font-family:Microsoft YaHei;\"&gt;有锁：国外发行有指定通讯运营商的手机，需要“卡贴”才可以使用国内SIM卡。SIM卡槽的样式往往也与通常不同。&lt;/span&gt;\n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-size:12px;font-family:Microsoft YaHei;\"&gt;水货：“关于本机”＞“型号”中，斜杠“/”前既不是CH也不是ZP。&lt;/span&gt;\n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/592022f7b1f2060000000029.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2019
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 7,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 2
+            },
+            {
+                "id": 456,
+                "name": "机身颜色",
+                "type": 1,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2453,
+                        "value": "白色",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2453
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 999,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2454,
+                        "value": "黑色",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2454
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 999,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 3
+            },
+            {
+                "id": 333,
+                "name": "苹果保修期时长",
+                "type": 1,
+                "text": "&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;在 “设置”&amp;gt;“通用”&amp;gt;“关于本机”中寻找序列号或IMEI号，&lt;/span&gt;&lt;span style=\"font-family:&amp;quot;\"&gt;输入以下网址进行查询即可，&lt;/span&gt;\n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;&lt;a href=\"https://checkcoverage.apple.com/cn/zh\" target=\"_blank\"&gt;&lt;span style=\"color:#00D5FF;\"&gt;https://checkcoverage.apple.com/cn/zh&lt;/span&gt;&lt;/a&gt;（周日无法查询）&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;非国行港行的机器，也请选择“保修一个月或过保”。&lt;/span&gt; \n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;br /&gt;\n&lt;/p&gt;\n&lt;p&gt;\n\t&lt;br /&gt;\n&lt;/p&gt;",
+                "imgs": [
+                    "https://sr.aihuishou.com/image/5902c2c0fe9db30000000009.png",
+                    "https://sr.aihuishou.com/image/5902c2c6fe9db3000000000d.png"
+                ],
+                "values": [
+                    {
+                        "id": 2072,
+                        "value": "保修期剩余一个月以上",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2072
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2075,
+                        "value": "过保/保修期不足一个月",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2075
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 1,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 4
+            },
+            {
+                "id": 343,
+                "name": "iCloud是否可注销",
+                "type": 3,
+                "text": "&lt;span style=\"font-family:Microsoft YaHei;\"&gt;iCloud是无法通过还原出厂设置来解除的。以防质检时需要询问您，或者影响回收价格，请您解除iCloud账户后再回收。&lt;/span&gt;",
+                "imgs": [
+                    "https://sr.aihuishou.com/image/5a4ddcf4006a29881700000d.png",
+                    "https://sr.aihuishou.com/image/5a4ddcf5bf4d72000000000d.png",
+                    "https://sr.aihuishou.com/image/5a4ddcf8bf4d720000000011.png"
+                ],
+                "values": [
+                    {
+                        "id": 2100,
+                        "value": "苹果iCloud账户可退出",
+                        "isPreferred": true,
+                        "text": "&lt;span style=\"font-family:Microsoft YaHei;\"&gt;爱回收会验证（1）还原激活苹果手机时无账号；（2）IMEI查询苹果数据无账号。均满足才是iCloud已注销，否则为iCloud未注销。&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/5a4ddce5006a298817000009.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2100
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2101,
+                        "value": "苹果iCloud账户无法退出",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\n\t&lt;span&gt;&lt;span style=\"font-family:Microsoft YaHei;\"&gt;iCloud是无法通过还原出厂设置来解除的。以防质检时需要询问您，或者影响回收价格，请您解除iCloud账户再回收。&lt;/span&gt;&lt;/span&gt; \n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/5a4ddcda006a298817000001.png",
+                            "https://sr.aihuishou.com/image/5a4ddce0006a298817000005.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2101
+                        ],
+                        "tips": "",
+                        "isNoAdditional": true,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 1,
+                        "isEnvironmentalRecycling": true
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 6
+            },
+            {
+                "id": 352,
+                "name": "边框背板",
+                "type": 3,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2124,
+                        "value": "从未使用，全新包装未拆封",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:&amp;quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px;&quot;&gt;未拆封或仅拆封包装。&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 16px;&quot;&gt;机器、包装、配件齐全，机器未激活使用，机器、配件无外观瑕疵——&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt; \r\n&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;SimSun&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;卡托、机身螺丝、电池、手写笔不能缺失；&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;包装、标签无破损、印章、涂写，配件（充电器、说明书、三包、进网许可）无缺失磨损。&lt;/span&gt;&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590bfd45c4c234000000002d.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2124
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2125,
+                        "value": "很少使用，完美无任何痕迹",
+                        "isPreferred": true,
+                        "text": "&lt;span style=&quot;font-family:Microsoft YaHei;&quot;&gt;机身外壳、耳机孔、按键等处无任何划痕、磕碰掉漆，按键、外壳无缺失。&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590c8e7721cfcc5c34000015.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2125
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 1,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2126,
+                        "value": "经常使用，有少量轻微划痕",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;&lt;span style=&quot;font-family: &amp;quot;&amp;quot;;&quot;&gt;边框、背板、按键或者机身LOGO，光照下可见划痕或轻微磨损。&lt;/span&gt;&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590bfd578853501011000015.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2126
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 4,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2128,
+                        "value": "经常使用，外壳有磕碰掉漆",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:&amp;quot;&quot;&gt;&lt;span style=&quot;font-family:Microsoft YaHei;&quot;&gt; &lt;/span&gt;&lt;/span&gt; \r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n\t&lt;span&gt;&lt;span style=&quot;font-family:Microsoft YaHei;&quot;&gt;机身、按键、LOGO等均是外壳。有任何磕碰、掉漆则属于外壳磕碰。请向右滑动查看详细说明。&lt;/span&gt;&lt;/span&gt;\r\n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590bfd30c4c2340000000029.png",
+                            "https://sr.aihuishou.com/image/59159432ac12d6a407000001.png",
+                            "https://sr.aihuishou.com/image/59159436ac12d6a407000005.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2128
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 6,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 6873,
+                        "value": "外壳有裂缝/缺失/变形/刻字",
+                        "isPreferred": false,
+                        "text": "&lt;span style=&quot;color: rgb(33, 31, 61); background-color: rgb(239, 238, 246);&quot;&gt;边框背板-外壳缺失/裂缝/孔变形/翘起/刻字&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/5ba0942cf55e07040d000001.png",
+                            "https://sr.aihuishou.com/image/5ba09438f55e07040d000005.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            6873
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 9,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 7
+            },
+            {
+                "id": 351,
+                "name": "屏幕外观",
+                "type": 3,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2118,
+                        "value": "很少使用，完美无任何痕迹",
+                        "isPreferred": true,
+                        "text": "&lt;span style=\"font-family:Microsoft YaHei;\"&gt;屏幕玻璃及边缘无划痕、破损、掉漆、气泡等任何问题。&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590c8e86118e2e0000000029.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2118
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2120,
+                        "value": "经常使用，完好有轻微划痕",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;font-size:16px;\"&gt;&lt;/span&gt;&lt;span style=\"font-family:Microsoft YaHei;font-size:16px;\"&gt;&lt;span style=\"font-size:12px;\"&gt;撕开贴膜，布擦拭干净。用日光灯、户外等强光照下可见划痕。&lt;/span&gt;&lt;span style=\"font-size:12px;\"&gt;&lt;/span&gt;&lt;br /&gt;\n&lt;/span&gt; \n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590bfd098853501011000009.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2120
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 3,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 3098,
+                        "value": "经常使用，屏幕有明显划痕/脱胶",
+                        "isPreferred": false,
+                        "text": "屏幕边缘有磕碰小缺角，或者屏幕边缘脱胶，显示区域有气泡。",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/20190223112124_7211.png",
+                            "https://sr.aihuishou.com/image/20190223112150_7196.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            3098
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 5,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2122,
+                        "value": "屏幕有缺角/碎裂",
+                        "isPreferred": false,
+                        "text": "屏幕或边缘有裂纹、碎裂的情况。",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/20190223112545_2604.png",
+                            "https://sr.aihuishou.com/image/20190223112605_0161.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2122
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 7,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 8
+            },
+            {
+                "id": 350,
+                "name": "屏幕显示",
+                "type": 3,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2114,
+                        "value": "很少使用，显示完美几乎全新",
+                        "isPreferred": true,
+                        "text": "&lt;span style=&quot;font-family:Microsoft YaHei;&quot;&gt;显示在纯色界面下，颜色、亮度均匀，无亮点、发黄、发红、色斑、闪烁等情况。&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590bfdddc4c2340000000049.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2114
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2115,
+                        "value": "经常使用，显示正常细微色差",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:&amp;quot;&quot;&gt;屏幕上存在颜色异常或亮度异常的光点或斑块；或者显示出现分层，颜色深浅不一。&lt;/span&gt; \r\n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/59278c4758f43c4c24000005.png",
+                            "https://sr.aihuishou.com/image/59278bdb62fad70000000009.png",
+                            "https://sr.aihuishou.com/image/5a2f4509f85e2c0000000015.png",
+                            "https://sr.aihuishou.com/image/5a2f450ef1a41f0c08000015.png",
+                            "https://sr.aihuishou.com/image/5a2f4ad7f85e2c000000001d.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2115
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 2,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 8565,
+                        "value": "经常使用，显示有轻微透字",
+                        "isPreferred": false,
+                        "text": "手机屏幕，使用时间久了，即使在其他界面上方也隐约有字印透出。",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/20190315220754_0321.png",
+                            "https://sr.aihuishou.com/image/20190315220832_9076.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            8565
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 4,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2475,
+                        "value": "显示异常，有局部花屏/老化",
+                        "isPreferred": false,
+                        "text": "&lt;span&gt;&lt;span style=&quot;font-family:&amp;quot;&quot;&gt;&lt;span style=&quot;font-family:Microsoft YaHei;&quot;&gt;屏幕显示出现漏液（黑色不显示区域）、横竖线、闪烁、老化（纯色界面透出图案）等问题，影响正常使用。请向右滑查看明细。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/5a2f7230f1a41f0c08000035.png",
+                            "https://sr.aihuishou.com/image/5a2f723af1a41f0c08000039.png",
+                            "https://sr.aihuishou.com/image/5a2f7277f85e2c000000002d.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2475
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 6,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 3304,
+                        "value": "屏幕无法正常显示",
+                        "isPreferred": false,
+                        "text": "&lt;span style=&quot;font-family:Microsoft YaHei;&quot;&gt;屏幕黑屏不显示；或者虽然亮屏，但没有任何地方可以显示出文字等信息。&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590bfdd7c4c2340000000045.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            3304
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 7,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 9
+            },
+            {
+                "id": 332,
+                "name": "维修情况",
+                "type": 3,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2067,
+                        "value": "无维修情况",
+                        "isPreferred": true,
+                        "text": "&lt;span style=\"font-family:Microsoft YaHei;\"&gt;机身内部无任何维修痕迹，零件齐全无焊接、撬痕，螺丝未缺失&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590c0f36503be6c437000006.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2067
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2965,
+                        "value": "屏幕维修",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\n\t&lt;span style=\"font-family:Microsoft YaHei;\"&gt;在屏幕上有盖章，或者iPhone 5、5S、5C、SE、6、6 plus屏幕露出二维码，或者排线顺序与原装屏不符。&lt;/span&gt;\n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590bedd9b4bb47a42b000005.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2965
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 3,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2070,
+                        "value": "主板维修",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:Microsoft YaHei;font-size:16px;&quot;&gt; &lt;/span&gt; \r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:&amp;quot;&quot;&gt;1、改容量、一体机换壳；&lt;/span&gt;&lt;span style=&quot;line-height:1.5;font-family:&amp;quot;&quot;&gt;主板处盖章、黑纸破损、盖板拆开、焊接飞线；系统无IMEI号，或者与机身IMEI号不一致。&lt;/span&gt; \r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:&amp;quot;&quot;&gt;2、&lt;/span&gt;&lt;span style=&quot;line-height:1.5;font-family:&amp;quot;&quot;&gt;出现以下情况数量≥3，就属于多处维修痕迹：&lt;/span&gt; \r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:&amp;quot;&quot;&gt; 1)内部螺丝、零件有缺失；&lt;/span&gt; \r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:&amp;quot;&quot;&gt; 2)电池被更换或松动有撬痕；&lt;/span&gt; \r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:&amp;quot;&quot;&gt; 3)维修过尾插或扬声器；&lt;/span&gt; \r\n&lt;/p&gt;\r\n&lt;p&gt;\r\n\t&lt;span style=&quot;font-family:&amp;quot;&quot;&gt; 4)有贴标，或者非主板处有盖章；&lt;/span&gt; \r\n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/58cb82ea4448f31c2e000005.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2070
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 7,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2069,
+                        "value": "屏幕和主板均有维修",
+                        "isPreferred": false,
+                        "text": "若手机同时有屏幕维修、主板维修/多处维修痕迹时，选择“屏幕和主板均有维修”。",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/5afdb869cc1a18dc17000001.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2069
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 9,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 10
+            },
+            {
+                "id": 580,
+                "name": "触摸功能",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 3168,
+                        "value": "触摸功能正常",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            3168
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 3169,
+                        "value": "触摸失灵/延迟",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            3169
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 3,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 11
+            },
+            {
+                "id": 353,
+                "name": "受潮状况 ",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2129,
+                        "value": "机身无进水",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2129
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2130,
+                        "value": "机身进水或受潮",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\n\t&lt;span style=\"font-family:&amp;quot;\"&gt;如有以下三种情况之一，请选择机身进水或受潮：1.防潮标变色（图片圈出位置）或者缺失；2.螺丝或机身内部有生锈、发霉、积水或者水印；3.摄像头内有水珠，水雾。&lt;/span&gt; \n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/590bff14885350101100001d.png",
+                            "https://sr.aihuishou.com/image/590bff1e8853501011000022.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2130
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 2,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 12
+            },
+            {
+                "id": 355,
+                "name": "机身是否弯曲",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2134,
+                        "value": "机身无弯曲",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2134
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2135,
+                        "value": "机身弯曲",
+                        "isPreferred": false,
+                        "text": "&lt;span style=\"font-family:Microsoft YaHei;\"&gt;机身弯折，或者呈现弧度。建议以直尺测量，若有空隙则为弯曲。电池鼓包也属于弯曲。&lt;/span&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/59202918b1f206000000003d.png",
+                            "https://sr.aihuishou.com/image/59202928b1f2060000000041.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2135
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 2,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 13
+            },
+            {
+                "id": 1279,
+                "name": "零件维修和更换情况",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 6982,
+                        "value": "电池/摄像头/外壳/尾插无更换",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            6982
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 6985,
+                        "value": "更换过电池/摄像头/外壳/尾插",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            6985
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 1,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 14
+            },
+            {
+                "id": 325,
+                "name": "通话功能",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2045,
+                        "value": "通话正常",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2045
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2047,
+                        "value": "通话功能不正常",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2047
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 3,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 15
+            },
+            {
+                "id": 1135,
+                "name": "面容识别功能",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 5300,
+                        "value": "面容识别功能正常",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            5300
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 5299,
+                        "value": "面容无法录入和识别",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            5299
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 2,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 16
+            },
+            {
+                "id": 345,
+                "name": "拍摄功能",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2104,
+                        "value": "拍照摄像正常",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2104
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2105,
+                        "value": "拍摄模糊/抖动/有斑",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2105
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 3,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 17
+            },
+            {
+                "id": 347,
+                "name": "无线功能",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2108,
+                        "value": "无线正常",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2108
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2109,
+                        "value": "无线无法打开/无法连接",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2109
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 2,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 18
+            },
+            {
+                "id": 1268,
+                "name": "屏幕传感器功能",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 6947,
+                        "value": "光线、距离感应正常",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            6947
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 6948,
+                        "value": "光线/距离感应不正常",
+                        "isPreferred": false,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            6948
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 2,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 19
+            },
+            {
+                "id": 529,
+                "name": "指南针功能",
+                "type": 2,
+                "text": null,
+                "imgs": null,
+                "values": [
+                    {
+                        "id": 2808,
+                        "value": "指南针功能正常",
+                        "isPreferred": true,
+                        "text": "",
+                        "imgs": null,
+                        "disabled": false,
+                        "ppvIds": [
+                            2808
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 0,
+                        "isEnvironmentalRecycling": false
+                    },
+                    {
+                        "id": 2809,
+                        "value": "指南针功能不正常",
+                        "isPreferred": false,
+                        "text": "&lt;p&gt;\n\t&lt;span style=\"font-size:16px;font-family:Microsoft YaHei;\"&gt;&lt;/span&gt;&lt;span style=\"font-family:Microsoft YaHei;\"&gt;指南针不会随着手机的摆动而转动；或无法稳定指向南面或者北面&lt;/span&gt; \n&lt;/p&gt;",
+                        "imgs": [
+                            "https://sr.aihuishou.com/image/560b5b66282d97c0210005dc.png"
+                        ],
+                        "disabled": false,
+                        "ppvIds": [
+                            2809
+                        ],
+                        "tips": "",
+                        "isNoAdditional": false,
+                        "isOverProtection": false,
+                        "isPerfect": false,
+                        "mark": null,
+                        "shouldRelease": false,
+                        "weight": 2,
+                        "isEnvironmentalRecycling": false
+                    }
+                ],
+                "isPhenomenon": false,
+                "mark": null,
+                "releaseItems": [],
+                "weight": 20
+            }
+        ],
+        "ppvDisabledTips": null,
+        "ppvIsEnvironmentalRecyclingTips": null
+    },
+    "code": 0,
+    "message": null,
+    "resultMessage": null
+}

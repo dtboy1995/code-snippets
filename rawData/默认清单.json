@@ -1,0 +1,75 @@
+{
+    "data": {
+        "name": "使用情况",
+        "items": [
+            {
+                "id": 28,
+                "value": "正常进入桌面",
+                "ppvIds": [
+                    2026
+                ],
+                "valueEnum": 0,
+                "isEnvironmentalRecycling": false
+            },
+            {
+                "id": 29,
+                "value": "全新包装未拆封",
+                "ppvIds": [
+                    2124,
+                    2129,
+                    2134,
+                    3168,
+                    2045,
+                    2067,
+                    9507,
+                    5300,
+                    2808,
+                    9625,
+                    6947,
+                    6949,
+                    2100,
+                    2104,
+                    2106,
+                    2108,
+                    2026,
+                    2114,
+                    6982,
+                    2118
+                ],
+                "valueEnum": 1,
+                "isEnvironmentalRecycling": false
+            },
+            {
+                "id": 30,
+                "value": "无法开机/无法进入桌面",
+                "ppvIds": [
+                    6873,
+                    2130,
+                    2135,
+                    3169,
+                    2047,
+                    2069,
+                    9507,
+                    5299,
+                    2809,
+                    9625,
+                    6948,
+                    6949,
+                    2101,
+                    2105,
+                    2106,
+                    2109,
+                    2027,
+                    3304,
+                    6985,
+                    2122
+                ],
+                "valueEnum": 2,
+                "isEnvironmentalRecycling": true
+            }
+        ]
+    },
+    "code": 0,
+    "message": null,
+    "resultMessage": null
+}

@@ -1,6 +1,11 @@
 
 # 代码片段
 
+### 安装puppeteer
+```
+PUPPETEER_DOWNLOAD_HOST=https://storage.googleapis.com.cnpmjs.org npm install puppeteer
+```
+
 ### 避免puppeteer等有install.js重复执行的情况
 ```
 npm install --ignore-scripts

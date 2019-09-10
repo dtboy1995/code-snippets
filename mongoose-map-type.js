@@ -26,3 +26,18 @@ async function test() {
 }
 
 test()
+
+if(moment().get('hour')===9) {
+    if(miner.last_alloc_date !== moment().format('YYYY-MM-DD HH')) {
+        // start allocation 
+        miner.last_alloc_date =moment().format('YYYY-MM-DD HH')
+        await miner.save()
+    }
+}
+
+if(moment(miner.started_at).add('days', project_duration).isBefore(moment()))) {
+    // start return origin
+    miner.status = 'END'
+    await miner.save()
+    await job.cancel()
+}

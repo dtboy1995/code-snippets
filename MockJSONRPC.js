@@ -46,3 +46,19 @@ accounts.db
 {"address":"YTA1NGUyNzUtYWIzYi00ZTBmLTg3NzItYTY3Z","balance":0,"miner":true,"_id":"ouFp0GVbHM1YANWd","createdAt":{"$$date":1568282829657},"updatedAt":{"$$date":1568282829657}}
 {"address":"MDUwM2Y0MzctZmU2OC00NjJhLTgyOWUtNDFiY","balance":1000,"system":true,"_id":"sAbElA3lpOw3F6EN","createdAt":{"$$date":1568282829662},"updatedAt":{"$$date":1568282829662}}
 {"address":"NjMxODBiZTktNTYyMi00OTdhLTkzYjctZTVhM","balance":1000,"system":true,"_id":"8xSm5sq3d3RzBpiu","createdAt":{"$$date":1568282829663},"updatedAt":{"$$date":1568282829663}}
+
+function genAD() {
+    return Buffer.from(uuid()).toString('base64').slice(0, 37)
+}
+
+
+// async function mock() {
+//     for (let i = 0; i < 17; i++) {
+//         await db.accounts.insert({ address: genAD(), balance: 500 })
+//     }
+//     await db.accounts.insert({ address: genAD(), balance: 0, miner: true })
+//     await db.accounts.insert({ address: genAD(), balance: 1000, system: true })
+//     await db.accounts.insert({ address: genAD(), balance: 1000, system: true })
+// }
+
+// mock()

@@ -1,6 +1,13 @@
 
 # 代码片段
 
+### glob 删除指定后缀名文件
+```js
+glob.sync(path + '**/*.{html,xhtml}')
+glob.sync(path + '**/*.+(html|xhtml)')
+glob.sync(path + '**/*.@(html|xhtml)')
+```
+
 ### 安装puppeteer
 ```
 PUPPETEER_DOWNLOAD_HOST=https://storage.googleapis.com.cnpmjs.org npm install puppeteer

@@ -37,7 +37,7 @@
 - 数据部分为: `文件总长度` - `number_of_bytes_in_header`
 - 数据共有 `number_of_blocks_in_record` 块
 - 每块的长度为所有信号的`number_of_samples`也就是采样率的总和 例如累加后为`765`那么代表着，所有信号在一个数据块中`duration_of_data_record`时间内有765个数据, 每个数据点占两个字节 那么一个数据块所占用的字节长度为 `2` * `765` = `1530`
-- 计算出每个数据块所占字节长度后,就可以按照找个长度进行数据解析了
+- 计算出每个数据块所占字节长度后,就可以按照这个长度进行数据解析了
 - 普通的信号按照 每2个字节一个数据解析即可 解析规则为**2字节有符号 小字节序 二进制补码** --- 各个语言都有各自的方法 Nodejs中为`block.readInt16LE(offset)`
 - 对于`EDF Annotations`信号 解析到它时把他的数据段按`0x14``0x0`两个特殊字符分割，得到的每段数据再按照`0x14`分割 分割后的第一个数据为`onset` 剩下的都为原始annotation `onset`继续按照`0x15`分割 第一个为这个数据块中annotation的`开始时间` 第二个数据为这个数据块中annotation的`持续时间` 可参考https://www.edfplus.info/specs/index.html
 

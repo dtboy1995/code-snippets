@@ -34,7 +34,7 @@
 ----------
 
 ## 数据
-- `数据部分为文件总长度` - `number_of_bytes_in_header`
+- 数据部分为: `文件总长度` - `number_of_bytes_in_header`
 - 数据共有 `number_of_blocks_in_record` 块
 - 每块的长度为所有信号的`number_of_samples`也就是采样率的总和 例如累加后为`765`那么代表着，所有信号在一个数据块中`duration_of_data_record`时间内有765个数据, 每个数据点占两个字节 那么一个数据块所占用的字节长度为 `2` * `765` = `1530`
 - 计算出每个数据块所占字节长度后,就可以按照找个长度进行数据解析了

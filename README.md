@@ -1,6 +1,9 @@
 
 # 代码片段
 
+### 注意使用vue-cli打包时 
+- 不要自己设置NODE_ENV=development 否则会影响打包的判断!
+
 ### glob 删除指定后缀名文件
 ```js
 glob.sync(path + '**/*.{html,xhtml}')

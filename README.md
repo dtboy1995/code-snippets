@@ -1,6 +1,32 @@
 
 # 代码片段
 
+### oss获取全部数据
+```js
+async function test() {
+    let count = 0
+    let marker
+    while (true) {
+        let condition = {
+            prefix: 'images/',
+            'max-keys': 1000,
+            delimiter: '/',
+        }
+        if (marker) {
+            condition.marker = marker
+        }
+        let { objects, nextMarker } = await client.list(condition)
+        console.log(_.head(objects));
+        count += objects.length
+        marker = nextMarker
+        if (!marker) {
+            break
+        }
+    }
+    console.log(count);
+}
+```
+
 ### getAllCookies
 ```js
 const client = await page.target().createCDPSession();

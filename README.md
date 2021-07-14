@@ -1,6 +1,12 @@
 
 # 代码片段
 
+### getAllCookies
+```js
+ const client = await page.target().createCDPSession();
+        console.log(await client.send("Network.getAllCookies"));
+```
+
 ### 注意使用vue-cli打包时 
 - 不要自己设置NODE_ENV=development 否则会影响打包的判断!
 

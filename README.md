@@ -3,8 +3,8 @@
 
 ### getAllCookies
 ```js
- const client = await page.target().createCDPSession();
-        console.log(await client.send("Network.getAllCookies"));
+const client = await page.target().createCDPSession();
+console.log(await client.send("Network.getAllCookies"));
 ```
 
 ### 注意使用vue-cli打包时 

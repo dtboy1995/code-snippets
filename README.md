@@ -1,6 +1,9 @@
 
 # 代码片段
 
+### mongodb 查看索引创建进度
+> db.adminCommand({ currentOp: true, $or: [{ op: "command", "command.createIndexes": { $exists: true }}, { op: "none", "msg": /^Index Build/ }]}).inprog[0].msg
+
 ### oss获取全部数据
 ```js
 async function test() {

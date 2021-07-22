@@ -92,5 +92,12 @@ export default {
     },
   },
   computed: {},
+  // "permission": {
+	//		"scope.userLocation": {
+	//			"desc": "获取wifi列表"
+	//		}
+	//	}
 };
 </script>
+
+

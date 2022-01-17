@@ -7,6 +7,19 @@
 https://github.com/selik/xport/issues/26
 ```
 
+```python
+import pandas as pd
+import xport
+import xport.v56
+
+df = pd.read_csv('input.csv')
+ds = xport.Dataset(df, name='SPEC', sas_os='X64_DS12', sas_version='9.4')
+with open('output.xpt', 'wb') as f:
+    xport.v56.dump(ds, f)
+
+print("done")
+```
+
 ```js
 const { stringify } = require('csv-stringify')
 const { promisify } = require('util')

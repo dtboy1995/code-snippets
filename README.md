@@ -20,6 +20,25 @@ with open('output.xpt', 'wb') as f:
 print("done")
 ```
 
+```python
+import pandas as pd
+import xport
+import xport.v56
+
+df1 = pd.read_csv('input.csv')
+df2 = pd.read_csv('input.csv')
+
+ds1 = xport.Dataset(df1, name='SPEC1', sas_os='X64_DS12', sas_version='9.4')
+ds2 = xport.Dataset(df2, name='SPEC2', sas_os='X64_DS12', sas_version='9.4')
+
+library = xport.Library({'SPEC1': ds1, 'SPEC2': ds2})
+
+with open('output.xpt', 'wb') as f:
+    xport.v56.dump(library, f)
+
+print("done")
+```
+
 ```js
 const { stringify } = require('csv-stringify')
 const { promisify } = require('util')

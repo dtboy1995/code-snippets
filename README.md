@@ -1,6 +1,12 @@
 
 # 代码片段
 
+### xpt csv
+
+```
+https://github.com/selik/xport/issues/26
+```
+
 ### mongodb 查看索引创建进度
 > db.adminCommand({ currentOp: true, $or: [{ op: "command", "command.createIndexes": { $exists: true }}, { op: "none", "msg": /^Index Build/ }]}).inprog[0].msg
 

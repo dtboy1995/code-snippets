@@ -7,6 +7,31 @@
 https://github.com/selik/xport/issues/26
 ```
 
+```js
+const { stringify } = require('csv-stringify')
+const { promisify } = require('util')
+
+async function toCsv({ input, columns }) {
+    let csv = await promisify(stringify)(input, {
+        header: true,
+        columns,
+    })
+    return csv
+}
+
+toCsv({
+    input: [
+        ['1', '2', '3', '4'],
+        ['a', 'b', 'c', 'd']
+    ],
+    columns: ['C1', 'C2', 'C3', 'C4'],
+}).then((csv) => {
+    console.log(csv);
+}).catch((err) => {
+    console.log(err);
+})
+```
+
 ### mongodb 查看索引创建进度
 > db.adminCommand({ currentOp: true, $or: [{ op: "command", "command.createIndexes": { $exists: true }}, { op: "none", "msg": /^Index Build/ }]}).inprog[0].msg
 

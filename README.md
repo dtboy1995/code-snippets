@@ -1,6 +1,12 @@
 
 # 代码片段
 
+### npm org
+```
+npm init --scope=datong
+npm publish --access public
+```
+
 ### xpt csv
 
 ```

@@ -1,6 +1,10 @@
 
 # 代码片段
 
+```
+npx uglifyjs --compress -m --output .\build\aframe.min.js .\build\aframe.js
+```
+
 ### npm org
 ```
 npm init --scope=datong

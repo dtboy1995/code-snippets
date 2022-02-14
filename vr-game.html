@@ -34,7 +34,7 @@
     let scene = document.getElementById('scene');
     let __target__ = document.getElementById('target');
     let counter = document.getElementById('counter');
-    window.onkeydown = (e) => {
+    window.addEventListener('keydown', (e) => {
       if (e.code == 'ArrowUp') {
       } else if (e.code == 'ArrowDown') {
       } else if (e.code == 'ArrowLeft') {
@@ -69,7 +69,7 @@
         })
       } else if (e.code == 'ShiftRight' || e.code == 'ShiftLeft') {
       }
-    }
+    })
   </script>
 </body>
 

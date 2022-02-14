@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script
+    src="https://unpkg.com/aframe-aabb-collider-component@3.1.0/dist/aframe-aabb-collider-component.min.js"></script>
+</head>
+
+<body>
+  <a-scene id="scene" pool__bullet="mixin: bullet; size: 20;">
+    <a-assets>
+      <a-mixin id="bullet" geometry="primitive: cylinder; height: 0.3; radius: 0.1;" rotation="90 0 0"
+        material="color: red" aabb-collider="objects: .target;"
+        animation="property: position; to: -1 0.5 -3; dur: 800; easing: linear; loop: false;startEvents: startanim_manual">
+      </a-mixin>
+    </a-assets>
+
+    <a-box id="target" class="target" position="-6 0.5 -3" rotation="0 45 0" color="#4CC3D9"
+      animation="property: position; to: 6 0.5 -3; dur: 2000; easing: linear; loop: true; pauseEvents: pauseanim_manual">
+    </a-box>
+    <a-plane position="0 0 -4" rotation="-90 0 0" width="100" height="100" color="#7BC8A4"></a-plane>
+
+    <a-text id="counter" value="Hits: 0" position="0 3 2" ; color="black"></a-text>
+
+    <a-entity camera look-controls position="0 1.6 6"></a-entity>
+  </a-scene>
+
+  <script>
+    let hits = 0;
+    let scene = document.getElementById('scene');
+    let __target__ = document.getElementById('target');
+    let counter = document.getElementById('counter');
+    window.onkeydown = (e) => {
+      if (e.code == 'ArrowUp') {
+      } else if (e.code == 'ArrowDown') {
+      } else if (e.code == 'ArrowLeft') {
+      } else if (e.code == 'ArrowRight') {
+      } else if (e.code == 'Enter' || e.code == 'Space') {
+        let el = scene.components.pool__bullet.requestEntity();
+        let target
+        el.addEventListener('hitstart', function (e) {
+          let els = el.components['aabb-collider'].intersectedEls;
+          target = els[0];
+          target.setAttribute('color', '#006699');
+          hits++;
+          counter.setAttribute('value', `Hits: ${hits}`)
+          if (hits >= 20) {
+            __target__.emit('pauseanim_manual', null, false);
+            counter.setAttribute('value', `Pass! You Win`);
+          }
+        }, {
+          once: true
+        });
+        el.object3D.position.set(-1, 0.5, 4);
+        el.play();
+        el.emit('startanim_manual', null, false);
+        el.addEventListener('animationcomplete', () => {
+          if (target) {
+            target.setAttribute('color', '#4CC3D9');
+            target = null;
+          }
+          scene.components.pool__bullet.returnEntity(el);
+        }, {
+          once: true
+        })
+      } else if (e.code == 'ShiftRight' || e.code == 'ShiftLeft') {
+      }
+    }
+  </script>
+</body>
+
+</html>

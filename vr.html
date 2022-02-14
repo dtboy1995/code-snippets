@@ -1,0 +1,86 @@
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script
+    src="https://unpkg.com/aframe-aabb-collider-component@3.1.0/dist/aframe-aabb-collider-component.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+
+    <a-box class="nmb" position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+    <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+    <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+    <a-sky color="#ffffff"></a-sky>
+    <a-entity camera look-controls position="0 1.6 6"></a-entity>
+    <!-- wasd-controls -->
+
+    <!-- <a-entity id="zd" position="-1 0.5 4" height="0.3" width="0.3"
+      depth="0.3" color="red" aabb-collider="objects: .nmb;">
+    </a-entity> -->
+
+    <a-cylinder rotation="90 0 0" id="zd" position="-1 0.5 4" radius="0.1" height="0.3" id="zd" color="red" aabb-collider="objects: .nmb;">
+    </a-cylinder>
+
+    <!-- <a-entity light="color: #ffffff; intensity: 1.5" position="2 12 10"></a-entity> -->
+
+    <!-- <a-entity scale="0.001 0.001 -0.001" position="-1 0.5 5" gltf-model="#bullet"></a-entity> -->
+
+    <!-- 2.2 碰撞 -->
+
+  </a-scene>
+
+  <script>
+    let zd = document.querySelector('#zd')
+    let th = 0.05
+    let nmb = document.querySelector('.nmb')
+
+    nmb.addEventListener('hitend', (e) => {
+      nmb.setAttribute('color', '#4CC3D9');
+    })
+
+    zd.addEventListener('hitstart', function (e) {
+      // closestIntersectedEl
+      let [box] = zd.components['aabb-collider'].intersectedEls
+      box.setAttribute('color', '#006699');
+      // console.log('zd-hitstart', box);
+    });
+
+    zd.addEventListener('hitend', function (event) {
+      // console.log('zd-hitend', event);
+    });
+
+    // zd.addEventListener('hitclosest', function (event) {
+    //   console.log('hitclosest');
+    // });
+
+    // zd.addEventListener('hitclosestclear', function (event) {
+    //   console.log('hitclosestclear');
+    // });
+
+    zd.setAttribute('animation', "property: position; to: -1 0.5 -3; dur: 800; easing: linear; loop: false;startEvents: startanim001")
+
+    window.onkeydown = (e) => {
+      if (e.code == 'ArrowUp') {
+        zd.object3D.position.z -= th;
+      } else if (e.code == 'ArrowDown') {
+        zd.object3D.position.z += th;
+      } else if (e.code == 'ArrowLeft') {
+        zd.object3D.position.x -= th;
+      } else if (e.code == 'ArrowRight') {
+        zd.object3D.position.x += th;
+      } else if (e.code == 'Enter') {
+        // reset position
+        zd.setAttribute('position', "-1 0.5 4")
+        zd.emit(`startanim001`, null, false);
+      } else if (e.code == 'ShiftRight' || e.code == 'ShiftLeft') {
+        // reset position
+        zd.setAttribute('position', "-1 0.5 4")
+      }
+    }
+  </script>
+</body>
+
+</html>

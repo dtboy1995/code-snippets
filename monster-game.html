@@ -1,0 +1,188 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Monster</title>
+  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.slim.js"></script>
+  <script src="/easyrtc/easyrtc.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+  <script src="https://unpkg.com/networked-aframe@^0.9.0/dist/networked-aframe.min.js"></script>
+  <script
+    src="https://unpkg.com/aframe-aabb-collider-component@3.1.0/dist/aframe-aabb-collider-component.min.js"></script>
+  <style>
+    .aim-container {
+      position: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      pointer-events: none;
+    }
+
+    .aim {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 3px solid #ff0000;
+    }
+  </style>
+  <script>
+    let isMaster = location.href.includes('?master');
+    let EVENTS = {
+      LIFE_REDUCTION: 'life-reduction',
+      GET_MASTER_CLIENT_ID: 'get-master-client-id',
+    };
+    let myClientId;
+    let masterClientId;
+    AFRAME.registerComponent('monster', {
+      dependencies: ['networked'],
+      schema: {
+        dismiss: { default: 200, },
+        life: { default: 100, }
+      },
+      init: function () { },
+      pause: function () { },
+      update: function (data) {
+        if (this.life) {
+          this.life.setAttribute('value', `${this.data.life}`);
+        }
+        // 如果是减血 
+        if (data.life > this.data.life) {
+          this.el.object3D.traverse((child) => {
+            if (child.isMesh) {
+              child.material.emissive = new THREE.Color(0xff0000);
+            }
+          });
+          setTimeout(() => {
+            this.el.object3D.traverse((child) => {
+              if (child.isMesh) {
+                child.material.emissive = new THREE.Color(0x000000);
+              }
+            })
+          }, this.data.dismiss);
+        }
+      },
+      play: function () {
+        this.life = document.querySelector('.life');
+      }
+    });
+
+  </script>
+</head>
+
+<body>
+  <a-scene id="scene" networked-scene="
+      room: monster;
+      debug: true;
+    ">
+    <a-assets>
+      <a-asset-item id="monster" src="./monster.glb"></a-asset-item>
+      <!-- 怪物模板 -->
+      <template id="monster-template">
+        <a-entity monster class="monster targetable" gltf-model="#monster" animation-mixer>
+          <a-text class="life" position="-0.2 2.6 1" value="100"></a-text>
+        </a-entity>
+      </template>
+    </a-assets>
+    <!-- 天空 -->
+    <a-sky color="grey"></a-sky>
+    <!-- 环境 -->
+    <a-plane class="targetable" position="0 0 -10" rotation="-90 0 0" width="10" height="10" color="#7BC8A4"></a-plane>
+  </a-scene>
+  <div id="aim_container" class="aim-container">
+    <div class="aim"></div>
+  </div>
+  <script>
+    console.log(`当前进入端为: [${isMaster ? '主机端' : '玩家端'}]`);
+    NAF.schemas.add({
+      template: '#monster-template',
+      components: [
+        'position',
+        'rotation',
+        {
+          component: 'monster',
+          property: 'life',
+        },
+        {
+          component: 'animation-mixer',
+        },
+      ]
+    });
+    let scene = document.getElementById('scene');
+    // 各个端存储自己clientId
+    document.body.addEventListener('connected', function (evt) {
+      let { clientId } = evt.detail;
+      myClientId = clientId;
+      if (isMaster) {
+        masterClientId = clientId;
+      }
+      console.log('[当前端]已连接', clientId);
+    });
+    if (isMaster) {
+      // 主机端发送clientId到玩家端
+      document.body.addEventListener('clientConnected', function (evt) {
+        let { clientId } = evt.detail;
+        if (isMaster && clientId != myClientId) {
+          console.log('[主机端]发送clientId到[玩家端]', isMaster, clientId, myClientId);
+          NAF.connection.sendData(clientId, EVENTS.GET_MASTER_CLIENT_ID);
+        }
+      }); if (isMaster) {
+        NAF.connection.unsubscribeToDataChannel(EVENTS.LIFE_REDUCTION);
+      }
+      let monsterElement;
+      // 同步减血
+      NAF.connection.subscribeToDataChannel(EVENTS.LIFE_REDUCTION, (senderId, dataType, data, targetId) => {
+        let { reduction } = data;
+        if (!monsterElement) {
+          monsterElement = document.querySelector('.monster');
+        }
+        if (monsterElement) {
+          let { life } = monsterElement.getAttribute('monster');
+          life -= reduction;
+          monsterElement.setAttribute('monster', 'life', life);
+        }
+        console.log(`[玩家端]:${senderId}发送减血:${reduction}`);
+      });
+      // 创建主机端元素
+      let aim_container = document.querySelector('#aim_container');
+      aim_container.style.display = 'none';
+      let entity = document.createElement('a-entity');
+      entity.setAttribute('networked', "template:#monster-template;attachTemplateToLocal:true;");
+      entity.setAttribute('position', '0 0 -10');
+      scene.appendChild(entity);
+    } else {
+      // 同步主机id
+      NAF.connection.subscribeToDataChannel(EVENTS.GET_MASTER_CLIENT_ID, (senderId, dataType, data, targetId) => {
+        masterClientId = senderId;
+        console.log('[玩家端]获取到[主机端]clientId', masterClientId);
+      });
+      // 创建玩家端元素
+      let camera = document.createElement('a-camera');
+      camera.setAttribute('position', '0 1.6 -5');
+      let entity = document.createElement('a-entity');
+      entity.setAttribute('class', 'sight');
+      entity.setAttribute('position', '0 0 0');
+      entity.setAttribute('raycaster', 'objects: .targetable;showLine: true;');
+      camera.appendChild(entity);
+      scene.appendChild(camera);
+      window.addEventListener('keydown', (e) => {
+        let { code } = e;
+        if (code == 'Space') {
+          let sight = document.querySelector('.sight');
+          let monster = document.querySelector('.monster');
+          let intersection = sight.components.raycaster.getIntersection(monster);
+          if (intersection != null) {
+            console.log('[客户端]击中怪物');
+            NAF.connection.sendData(masterClientId, EVENTS.LIFE_REDUCTION, { reduction: 1 });
+          }
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

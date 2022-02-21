@@ -130,9 +130,7 @@
           console.log('[主机端]发送clientId到[玩家端]', isMaster, clientId, myClientId);
           NAF.connection.sendData(clientId, EVENTS.GET_MASTER_CLIENT_ID);
         }
-      }); if (isMaster) {
-        NAF.connection.unsubscribeToDataChannel(EVENTS.LIFE_REDUCTION);
-      }
+      });
       let monsterElement;
       // 同步减血
       NAF.connection.subscribeToDataChannel(EVENTS.LIFE_REDUCTION, (senderId, dataType, data, targetId) => {

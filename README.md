@@ -2,6 +2,10 @@
 # 代码片段
 
 ```
+Remove-Item (Get-PSReadlineOption).HistorySavePath
+```
+
+```
 npx uglifyjs --compress -m --output .\build\aframe.min.js .\build\aframe.js
 ```
 

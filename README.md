@@ -2,6 +2,15 @@
 # 代码片段
 
 ```
+export const addOpacity = function (sharp: Sharp, opacity = 128): Sharp {
+    return sharp.composite([{
+        input: Buffer.from([255, 255, 255, opacity]),
+        raw: { width: 1, height: 1, channels: 4 },
+        tile: true,
+        blend: 'dest-in'
+    }]);
+};
+```
 Remove-Item (Get-PSReadlineOption).HistorySavePath
 ```
 

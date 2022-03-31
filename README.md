@@ -11,6 +11,8 @@ export const addOpacity = function (sharp: Sharp, opacity = 128): Sharp {
     }]);
 };
 ```
+
+```
 Remove-Item (Get-PSReadlineOption).HistorySavePath
 ```
 

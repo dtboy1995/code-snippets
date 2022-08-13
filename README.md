@@ -1,3 +1,8 @@
+### 清空日志
+```
+cat /dev/null>/var/log/cron
+```
+
 # upsert mongoose
 upsert的时候，default参数不工作 注意注意注意
 

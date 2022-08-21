@@ -1,3 +1,13 @@
+### ssh保活
+```
+/etc/ssh/sshd_config
+ClientAliveInterval 60
+ClientAliveCountMax 10
+
+systemctl restart sshd
+
+```
+
 ### 清空日志
 ```
 cat /dev/null>/var/log/cron

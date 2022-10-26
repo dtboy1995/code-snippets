@@ -1,3 +1,8 @@
+### electron mirror
+```
+https://registry.npmmirror.com/binary.html?path=electron/
+```
+
 ### ssh保活
 ```
 /etc/ssh/sshd_config

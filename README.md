@@ -1,3 +1,28 @@
+### el-scrollbar
+```
+.changelog-container {
+  .el-scrollbar {
+    height: calc(100vh - 100px);
+  }
+  /deep/ .el-scrollbar__bar.is-horizontal {
+    display: none !important;
+  }
+}
+.scrollbar-wrapper {
+    overflow-x: hidden !important;
+}
+<el-scrollbar wrap-class="scrollbar-wrapper">
+      <article
+        style="margin: 20px"
+        v-html="changelog"
+        class="markdown-body"
+      ></article>
+</el-scrollbar>
+
+
+```
+
+
 https://altearius.github.io/tools/json/index.html
 https://jsonhero.io/
 

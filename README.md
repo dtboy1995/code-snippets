@@ -7,6 +7,51 @@ let x = await evaluator.customEval(async function (a, b, c) {
      console.log(a, b, c);
     return
 }, 'show dbs;')
+
+const { CliServiceProvider } = require('@mongosh/service-provider-server');
+const { WorkerRuntime } = require('@mongosh/node-runtime-worker-thread')
+
+async function test() {
+    //const serviceProvider = await CliServiceProvider.connect('mongodb://localhost')
+    //console.log(serviceProvider);
+
+    // Create a new instance of the runtime and evaluate code from a playground.
+    //const runtime = new WorkerRuntime(serviceProvider);
+    const runtime = new WorkerRuntime('mongodb://localhost', {}, {})
+    await runtime.waitForRuntimeToBeReady()
+    // console.log(runtime)
+    runtime.setEvaluationListener({
+        onPrint(value) {
+            console.log('onPrint', value);
+        }
+    })
+    await runtime.evaluate('use abc');
+    let x = await runtime.evaluate(`show dbs;`)
+    console.log(x);
+    //let a = await runtime.evaluate(`db.tests.insertOne({fuck: 'you'})`)
+    //console.log(a)
+    await runtime.terminate()
+}
+
+test()
+
+
+```
+```
+"dependencies": {
+    "@mongosh/browser-runtime-core": "^1.6.1",
+    "@mongosh/node-runtime-worker-thread": "^1.6.1",
+    "@mongosh/service-provider-server": "^1.6.1",
+    "@mongosh/shell-evaluator": "^1.6.1",
+    "@mongosh/types": "^1.6.1",
+    "koa": "^2.14.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "node-media-server": "^2.4.9",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "saslprep": "^1.0.3"
+  }
 ```
 
 ### el-scrollbar

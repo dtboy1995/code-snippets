@@ -1,3 +1,14 @@
+### mongosh
+```js
+const { ShellEvaluator } = require('@mongosh/shell-evaluator')
+let evaluator = new ShellEvaluator( )
+console.log(evaluator);
+let x = await evaluator.customEval(async function (a, b, c) {
+     console.log(a, b, c);
+    return
+}, 'show dbs;')
+```
+
 ### el-scrollbar
 ```
 .changelog-container {

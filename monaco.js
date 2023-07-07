@@ -69,15 +69,14 @@ monaco.editor.defineTheme("myCustomTheme", {
 			token: "delimiter.bracket",
 			foreground: "4271ae"
 		},
-		{ 
-			token: 'customClass', 
-			foreground: 'ffa500',
-			fontStyle: 'italic underline' 
+		{
+			token: 'function.call',
+			foreground: '4271ae'
 		},
-		{ 
-			token: 'redClass', 
-			foreground: 'ff0000'
-		}
+		{
+			token: 'class.constructor',
+			foreground: '3e999f'
+		},
 	],
 	colors: {
 		"editor.foreground": "#000000",
@@ -93,8 +92,8 @@ let customTokenizer = {
 			{ include: 'mongodb' }
 		],
 		mongodb: [
-			['someSampleWord', 'customClass'],
-			['Array', 'redClass']
+			[/\b(find|sort)\s*(?=\()/, 'function.call'],
+			[/\b(constructor)\s*(?=\()/, 'class.constructor'],
 		]
 	},
 }
@@ -103,7 +102,6 @@ let languages = monaco.languages.getLanguages();
 languages.find(({ id }) => id === 'javascript')
 	.loader()
 	.then(({ language: jsLang }) => {
-		console.log(jsLang)
 		for (let key in customTokenizer) {
 			const value = customTokenizer[key];
 			if (key === 'tokenizer') {
@@ -123,9 +121,7 @@ languages.find(({ id }) => id === 'javascript')
 				jsLang[key].unshift.apply(jsLang[key], value)
 			}
 		}
-		
 	})
-
 
 function init() {
 	monaco.editor.create(document.getElementById("container"), {
@@ -165,6 +161,5 @@ class A {
         this.b = b
     }
 }
-someSampleWord
 `;
 }

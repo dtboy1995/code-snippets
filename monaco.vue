@@ -178,6 +178,10 @@ monaco.editor.defineTheme("myCustomTheme", {
 			token: "comment",
 		},
 		{
+			token: 'comment.doc',
+			foreground: '4271ae'
+		},
+		{
 			foreground: "718c00",
 			token: "string",
 		},
@@ -202,16 +206,28 @@ monaco.editor.defineTheme("myCustomTheme", {
 			token: "regexp",
 		},
 		{
+			foreground: "3e999f",
+			token: "regexp.escape",
+		},
+		{
 			token: 'type',
 			foreground: 'c82829'
 		},
 		{
 			token: 'delimiter',
-			foreground: '606266'
+			foreground: '3e999f'
 		},
 		{
-			token: 'operators',
-			foreground: 'ff0000'
+			token: "delimiter.parenthesis",
+			foreground: "606266"
+		},
+		{
+			token: "delimiter.square",
+			foreground: "606266"
+		},
+		{
+			token: "delimiter.bracket",
+			foreground: "4271ae"
 		},
 	],
 	colors: {

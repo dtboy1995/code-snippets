@@ -6,7 +6,7 @@
 
 <script>
 import * as monaco from "monaco-editor";
-
+// https://vimawesome.com/plugin/tomorrow-theme
 import es2020 from "!!raw-loader!./lib.es2020.full.d.ts";
 import mongo from "!!raw-loader!./mongo-shell.d.ts";
 

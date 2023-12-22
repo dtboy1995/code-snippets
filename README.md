@@ -1,4 +1,4 @@
-### ali OSS policy conditons
+### ali OSS policy conditions
 ```
 {
   "expiration": "2014-12-01T12:00:00.000Z",

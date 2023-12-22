@@ -1,3 +1,18 @@
+### ali OSS policy conditons
+```
+{
+  "expiration": "2014-12-01T12:00:00.000Z",
+  "conditions": [
+    {"bucket": "johnsmith" },    
+    ["content-length-range", 1, 10],
+    ["eq", "$success_action_status", "201"],
+    ["starts-with", "$key", "user/eric/"],
+    ["in", "$content-type", ["image/jpg", "image/png"]],
+    ["not-in", "$cache-control", ["no-cache"]]
+  ]
+} 
+```
+
 ### uview1.x 瀑布流 修改page.json后导致编译出错
 
 ### 字体处理

@@ -1,4 +1,15 @@
+### xlsx date number to date
+```js
+const date2string = (time_num) => {
+    const d = time_num - 1;
+    const t = Math.round((d - Math.floor(d)) * 24 * 60 * 60);
+    return moment(new Date(1900, 0, d, 0, 0, t)).format('YYYY-MM-DD');
+}
+```
+
+
 ### ali OSS policy conditions
+
 ```
 {
   "expiration": "2014-12-01T12:00:00.000Z",

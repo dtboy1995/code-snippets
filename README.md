@@ -1,4 +1,12 @@
-### xlsx date number to date
+### acme
+```
+acme.sh --install-cert -d foo.com \
+--key-file       /root/certs/root.key  \
+--fullchain-file /root/certs/root.pem \
+--reloadcmd     "systemctl reload nginx"
+```
+
+### xlsx(office) date number to date
 ```js
 const date2string = (time_num) => {
     const d = time_num - 1;

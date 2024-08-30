@@ -20,83 +20,84 @@ let data = [
             { "id": "18", "name": "1-3-7-12-18", "parent_id": "12" },
             { "id": "19", "name": "1-2-4-8-13-19", "parent_id": "13" },
             { "id": "20", "name": "1-2-5-9-14-20", "parent_id": "14" }
-        ]
-        // function buildTree(list, parent_id = "") {
-        //     return list
-        //         .filter(item => item.parent_id === parent_id)
-        //         .map(item => {
-        //             return {
-        //                 id: item.id,
-        //                 name: item.name,
-        //                 parent_id: item.parent_id,
-        //                 children: buildTree(list, item.id)
-        //             }
-        //         })
-        // }
+]
+// function buildTree(list, parent_id = "") {
+//     return list
+//         .filter(item => item.parent_id === parent_id)
+//         .map(item => {
+//             return {
+//                 id: item.id,
+//                 name: item.name,
+//                 parent_id: item.parent_id,
+//                 children: buildTree(list, item.id)
+//             }
+//         })
+// }
 
-        function buildTree(list) {
-            const map = {};
-            const roots = [];
+function buildTree(list) {
+const map = {};
+const roots = [];
 
-            list.forEach(item => {
-                map[item.id] = { ...item, children: [] };
-            });
+list.forEach(item => {
+    map[item.id] = { ...item, children: [] };
+});
 
-            list.forEach(item => {
-                if (item.parent_id) {
-                    // 如果存在父节点，将当前节点加入父节点的children数组
-                    if (map[item.parent_id]) {
-                        map[item.parent_id].children.push(map[item.id]);
-                    }
-                } else {
-                    // 如果没有父节点，说明是根节点
-                    roots.push(map[item.id]);
-                }
-            });
-
-            return roots;
+list.forEach(item => {
+    if (item.parent_id) {
+        // 如果存在父节点，将当前节点加入父节点的children数组
+        if (map[item.parent_id]) {
+            map[item.parent_id].children.push(map[item.id]);
         }
-        function getNodeAndAncestors(list, id) {
-            const node = list.find(item => item.id === id)
-            if (!node) return null
+    } else {
+        // 如果没有父节点，说明是根节点
+        roots.push(map[item.id]);
+    }
+});
 
-            const ancestors = []
-            let currentNode = node
+return roots;
+}
+function getNodeAndAncestors(list, id) {
+const node = list.find(item => item.id === id)
+if (!node) return null
 
-            while (currentNode.parent_id) {
-                const parent = list.find(item => item.id === currentNode.parent_id)
-                if (parent) {
-                    ancestors.unshift(parent)
-                    currentNode = parent
-                } else {
-                    break
-                }
-            }
+const ancestors = []
+let currentNode = node
 
-            return [node, ...ancestors]
-        }
-        function getNodeAndDescendants(list, id) {
-            const node = list.find(item => item.id === id)
-            if (!node) return null
+while (currentNode.parent_id) {
+    const parent = list.find(item => item.id === currentNode.parent_id)
+    if (parent) {
+        ancestors.unshift(parent)
+        currentNode = parent
+    } else {
+        break
+    }
+}
 
-            const descendants = []
+return [node, ...ancestors]
+}
+function getNodeAndDescendants(list, id) {
+const node = list.find(item => item.id === id)
+if (!node) return null
 
-            function findChildren(parentId) {
-                const children = list.filter(item => item.parent_id === parentId)
-                descendants.push(...children);
-                children.forEach(child => findChildren(child.id))
-            }
+const descendants = []
 
-            findChildren(node.id)
+function findChildren(parentId) {
+    const children = list.filter(item => item.parent_id === parentId)
+    descendants.push(...children);
+    children.forEach(child => findChildren(child.id))
+}
 
-            return [node, ...descendants]
-        }
-        const tree = buildTree(data)
-        console.log(tree)
+findChildren(node.id)
 
-        const nodeAndAncestors = getNodeAndAncestors(data, "10")
-        console.log(nodeAndAncestors)
+return [node, ...descendants]
+}
+const tree = buildTree(data)
+console.log(tree)
 
-        const nodeAndDescendants = getNodeAndDescendants(data, "2")
-        console.log(nodeAndDescendants)
+const nodeAndAncestors = getNodeAndAncestors(data, "10")
+console.log(nodeAndAncestors)
+
+const nodeAndDescendants = getNodeAndDescendants(data, "2")
+console.log(nodeAndDescendants)
+// 获取后代/祖先节点的list数组后，如果想继续buildTree 需要 list[0].parent_id = 0 (修改第一个item的parent_id为0)
 ```

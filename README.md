@@ -1,3 +1,15 @@
+### node 12 upgrade 16
+```
+rm -rf node_modules
+"sass": "1.32.0",
+"sass-loader": "^10.5.2",
+
+/deep/ -> ::v-deep
+
+--force
+npm config set strict-ssl false
+```
+
 ### CSS
 ```css
 .d3-3 {

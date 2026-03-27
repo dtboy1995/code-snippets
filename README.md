@@ -1,3 +1,25 @@
+### mongoose timestamp
+```js
+ let doc = new Model({
+    appid: Date.now(),
+    created_at: new Date('2026-03-01 00:00:00'),
+    updated_at: new Date('2026-03-01 00:00:00')
+})
+await doc.save()
+await Model.create({
+    appid: Date.now(),
+    created_at: new Date('2026-03-11 00:00:00'),
+    updated_at: new Date('2026-03-11 00:00:00')
+})
+await Model.findOneAndUpdate(condition, {
+    created_at: new Date('2026-03-12 00:00:00'),
+    updated_at: new Date('2026-03-12 00:00:00')
+}, {
+    timestamps: false,
+    overwriteImmutable: true,
+})
+```
+
 ### node 12 upgrade 16
 ```
 rm -rf node_modules
